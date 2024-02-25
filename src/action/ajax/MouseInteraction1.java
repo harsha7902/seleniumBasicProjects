@@ -20,6 +20,7 @@ public class MouseInteraction1 {
 		a.moveToElement(driver.findElement(By.id("twotabsearchtextbox"))).keyDown(Keys.SHIFT).click().sendKeys("hello").doubleClick().build().perform();
 //        move to specific element
 		a.moveToElement(move).contextClick().build().perform();
+		System.out.println("abcsdd");
 	}
 
 }
